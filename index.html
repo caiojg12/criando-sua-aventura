@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Em busca do One Piece</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.webp" alt="">
+            <p>Em um mundo onde existem inúmeros piratas poderosos e ambiciosos, um 
+                grupo de companheiros e amigos do East Blue chamados "Chapéus de Palha", vão 
+                em busca do maior tesouro deste mundo o One Piece!</p>
+                <button class="btn-proximo" data-proximo="1">Grand Line</button>
+                <button class="btn-proximo" data-proximo="2">South Blue</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-indo-grand-line.jpg" alt="grand line">
+            <p>Começando sua aventura em busca do tesouro, os Chapéus de Palha adentram a 
+                Grand Line e exploram as vastas ilhas atrás de mais informações sobre os 
+                Poneglifos que são pistas deixadas pelo Rei dos Piratas que escondeu o tesouro
+                para que outros piratas pudessem encontrar.</p>
+                <button class="btn-proximo" data-proximo="3">Logue Town</button>
+                <button class="btn-proximo" data-proximo="4">Alabasta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.jpg" alt="baratie">
+            <p>Os Chapéus de Palha resolvem ir ao South Blue antes da Grand Line, especificamente
+                em um restaurante-navio local chamado "Baratie" para pegar mais suprimentos, porém, 
+                se deparam com um pirata perverso chamado Don Krieg que tenta saqueá-los e destruir 
+                seu navio chamado "Thousand Sunny-Go", e consequentemente sua chance de ir para a 
+                Grand Line.</p>
+                <button class="btn-proximo" data-proximo="5">Lutar</button>
+                <button class="btn-proximo" data-proximo="6">Fugir</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ancorando o navio na costa da ilha, os Chapéus de Palha saem em busca de informações
+                e suprimentos, eles foram ás pressas para a Grand Line então estão com pouca bagagem.
+                Esta ilha é bem movimentada e tem uma cidade central, com vários comerciantes, mas
+                eles não conseguem comprar muitas coisas pela falta de dinheiro então são obrigados 
+                a priorizar alimentos e deixar as armas para defesa pessoal em falta.</p>
+                <button class="btn-proximo" data-proximo="7">Entrar na floresta da Ilha em busca de informações</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/Alabasta.webp" alt="alabasta">
+            <p>Os alegres recém piratas Chapéus de Palha resolvem então seguir em frente rumo a um reino 
+                chamado "Alabasta", um país quente e desértico outrora próspero e feliz, contudo, atualmente 
+                é forçadamente comandado por Crocodile um dos "Sete Corsários do Mar" um grupo de piratas que 
+                tem licença para viverem sem ser incomodados por soldados da Marinha, em troca de emprestarem 
+                sua força em guerras e conflitos considerados importantes pelo Governo Mundial.</p>
+                <button class="btn-proximo" data-proximo="8">Enfrentar Crocodile</button>
+                <button class="btn-proximo" data-proximo="9">Não se meter onde não foi chamado</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/krieg.jpg" alt="derrotando don krieg">
+            <p>Os piratas do Chapéu de Palha(como é chamado seu capitão) travam uma batalha rápida com o 
+                pirata Don Krieg e sua tripulação, mas a batalha se encerra rapidamente com uma vitória 
+                para os Chapéus de Palha. Os piratas do Don Krieg assim como seu capitão eram 
+                surpreendentemente fracos, pelo visto ele só era bom de lábia mesmo... Os Chapéus de 
+                palha pegam todos os recursos do navio de Don Krieg e partem vitoriosos para a Grand Line.</p>
+                <button class="btn-proximo" data-proximo="1">Grand Line</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/Saint_Bliss_Falls.webp" alt="derrotados">
+            <p>Os piratas do Chapéu de Palha(como era chamado seu capitão) tentam fugir dando a volta com o 
+                Thousand Sunny-Go, todavia, acabam caindo na armadilha de Don Krieg e são bombardeados de 
+                todos os lados pelos navios aliados dos piratas Don Krieg, sendo completamente derrotados 
+                sem que possam fazer nada. Um final trágico e triste para os recém piratas, visto que 
+                Don Krieg era bom apenas de lábia...
+                #derrota
+                </p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Entrando em uma floresta um pouco distante da cidade central, os Chapéus de Palha vão atrás de 
+                pistas ou qualquer coisa que indique a localização de um Poneglifo que é como um guia para o 
+                grande tesouro One Piece. Logo eles avistam um cubo enorme de uns 3 metros meio escondido 
+                entre as árvores e folhas, ao chegar perto eles conseguem ver textos escritos no cubo em 
+                todos os 4 lados. Após entender os enigmas eles descobrem que há outro Poneglifo em um reino 
+                não muito distante de suas coordenadas atuais, o que eles farão?</p>
+                <button class="btn-proximo" data-proximo="10">Ir para Alabasta</button>
+                <button class="btn-proximo" data-proximo="11">Desistir da jornada</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/luffy-vs-crocodile.jpg" alt="luffy contra crocodile">
+            <p>Uma intensa e demorada batalha se inicia entre os novos e habilidosos piratas Chapéus de Palha 
+                e um experiênte e poderoso pirata Crocodile, que tem o poder de controlar Areia. Dentre os 
+                Chapéus de palha temos o capitão Luffy com o poder de borracha, o espadachim Zoro, o cozinheiro 
+                e lutador Sanji, o atirador que nunca erra seu tiro Usopp, a arqueóloga capaz de recriar 
+                braços e pernas e usá-los em combate Robin e outros companheiros incríveis. Depois de uma 
+                intensa e árdua batalha, Luffy e seus companheiros saem vitoriosos. Após essa vitória em 
+                agradecimento por salvar o reino, o Rei de Alabasta "Nefertari Cobra" os recompensa com um 
+                grande banquete e novas armas e equipamentos sofisticados.</p>
+                <button class="btn-proximo" data-proximo="12">Perguntar sobre o poneglifo</button>
+                <button class="btn-proximo" data-proximo="13">Procurar discretamente o poneglifo</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Luffy e seus amigos resolvem não se meter com um Corsário poderoso e dão meia volta, entretanto, 
+                são surpreendidos com navios da marinha se aproximando e se escondem mas o único lugar onde 
+                eles poderão se livrar temporariamente da presença da marinha é Alabasta. Então sem escolha, 
+                todos voltam e resolvem enfrentar o tirano.</p>
+                <button class="btn-proximo" data-proximo="8">Enfrentar Crocodile</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Os alegres recém piratas Chapéus de Palha resolvem então seguir em frente rumo a um reino 
+                chamado "Alabasta", um país quente e desértico outrora próspero e feliz, contudo, atualmente 
+                é forçadamente comandado por Crocodile um dos "Sete Corsários do Mar" um grupo de piratas que 
+                tem licença para viverem sem ser incomodados por soldados da Marinha, em troca de emprestarem 
+                sua força em guerras e conflitos considerados importantes pelo Governo Mundial.</p>
+                <button class="btn-proximo" data-proximo="8">Enfrentar Crocodile</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Percebendo o quão complicado  vai ser toda essa jornada, Luffy e alguns companheiros 
+                decidem desistir de seus sonhos, mas nem todos concordaram e questionaram Luffy sobre 
+                seu espírito de aventura e assim os Chapéus de Palha se separam e enquanto uns desistem
+                outros vão atrás de outros bandos piratas para continuar seus sonhos... Mas nem todos os
+                piratas são bons como era Luffy e devido a essa separação eles nunca mais se viram pessoal
+                mente. 
+                #separacao</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/robin.jpg" alt="robin">
+            <p>Robin a arqueóloga do bando toma a iniciativa de perguntar ao rei Cobra sobre o poneglifo
+                existente em Alabasta, o rei fica surpreso pela pergunta e é aí que ele percebe que o rosto
+                de Robin é familiar pois ela é conhecida mundialmente e procurada pelo governo mundial com
+                uma recompensa de 79 milhões de berries. Ela é sobrevivente de uma antiga ilha de arqueólogos 
+                que estudavam a história proibida do mundo, atualmente é uma das únicas pessoas a ter 
+                informações mais avançadas sobre a história deste mundo e por isso é procurada pelo 
+                Governo Mundial.</p>
+                <button class="btn-proximo" data-proximo="14">Porão do castelo real de Alabasta</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Usopp o atirador do bando diz que seria insensível da parte deles se eles perguntassem sobre 
+                o poneglifo ao rei depois dele os ajudar tanto, então Luffy decide que todos vão procurar 
+                discretamente, porém logo o rei percebe e diz que não precisam fazer tudo isso pois eles 
+                salvaram o reino e merecem saber. Apesar de ter ficado surpreso com a pergunta o rei leva 
+                eles até a parte subterrânea do castelo.</p>
+                <button class="btn-proximo" data-proximo="14">Porão do castelo real de Alabasta</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Chegando no subsolo, o rei diz que está levando eles não só por eles terem salvado o reino 
+                mas porque ele confia em Robin que é a única sobrevivente do lugar onde ele admirava
+                todos os estudiosos que lá viviam. Após eles escreverem uma copia do poneglifo em um papel, 
+                Luffy e os Chapéus de Palha partem em mais uma aventura em busca dos outros poneglifos. Porém, 
+                derrepente eles dão de cara com alguns navios da marinha que estavam por ali rondando desde cedo 
+                em busca de alguns piratas aliados de Crocodile.</p>
+                <button class="btn-proximo" data-proximo="15">Lutar com a Marinha</button>
+                <button class="btn-proximo" data-proximo="16">Fugir rapidamente daquele lugar</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img/zoro-corta-navio.jpeg" alt="zoro">
+            <p>Sem tempo de pensar todos decidem lutar mesmo cansados e feridos, quando em uma fração de 
+                segundo Zoro lança um poderoso ataque de espada que parte um dos navios da marinha ao meio. 
+                Todos vêem que mesmo cansado ele foi capaz de algo assim, inspirados por sua determinação, 
+                os outros Chapéus de Palha entram na luta. Sanji conta 3 navios restantes ao todo, enquanto 
+                Luffy rapidamente lança seu ataque principal: "Gomu Gomu no...Pistol!" Destruindo um dos 
+                navios, restam apenas 2 que são destruidos por Usopp, o atirador e Nami, a navegadora do bando 
+                que tem um bastão que controla o clima em uma área razoávelmente pequena. Usopp lança um tiro 
+                de canhão certeiro e Nami lança um raio com seu "Clima-Tact". </p>
+                <button class="btn-proximo" data-proximo="17">Seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Luffy e seus companheiro concordam entre si que estão feridos e cansados demais para lutar 
+                e planejam fugir, mas, mesmo sem muito tempo e com a Marinha já atacando eles se concentram 
+                na defesa. Tiros de canhão dos 4 navios da marinha chegam rapidamente em direção ao Thousand 
+                Sunny-Go mas são ricocheteados por Luffy que usa seu poder de borracha para inflar e amortecer 
+                as bolas de canhão, em seguida  Robin usa seus poderes para criar dois braços em cada 
+                marinheiro que ela vê e torce seus pescoços. Nesse ritmo de fuga e defesa os Chapéus de Palha 
+                conseguem despistar os marinheiros.</p>
+                <button class="btn-proximo" data-proximo="17">Seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="img/luffy-segunda-recompensa2-1280x720.jpg" alt="recompensa do luffy">
+            <p>Seguindo em frente em sua jornada, os Chapéus de Palha pegam um dos jornais trazidos 
+                pelos pássaros do correio mundial e olham as notícias, surpresos com o que lêem rapidamente
+                mostram ao Luffy que suas recompensas subiram absurdamente após derrotarem Crocodile que era 
+                um dos Sete Corsários do Mar. Luffy atualmente tem uma recompensa de 100 milhões de berries, 
+                Zoro 60 milhões, Sanji 55 milhões, e os outros alguns valores abaixo. Com as informações do 
+                poneglifo, eles seguem rumo ao Arquipélago Sabaody que é a famosa ilha das bolhas, onde navios 
+                são revestidos para serem lançados abaixo do mar turísticamente para conhecer a Ilha dos Homens-
+                Peixe, onde vivem esses seres que infelizmente sofrem muito preconceito injustamente, e é 
+                exatamente lá onde está localizado mais um poneglifo.</p>
+                <button class="btn-proximo" data-proximo="18">Arquipélago Sabaody</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="img/Sabaody_Archipelago_Infobox.webp" alt="chegando a sabaody">
+            <p>Enfim chegamos a Sabaody, nesta época do ano muitos piratas estão se reunindo aqui pois essa 
+                é a ultima ilha da Grand Line e passando por ela chegamos a mais uma extremidade desse mundo, 
+                o "Novo Mundo" que é a famosa "Terra dos Imperadores" que são os 4 piratas mais poderosos 
+                deste mundo, acima até mesmo dos Sete Corsários e compete em nível de força com a força 
+                suprema da marinha os 3 Almirantes e o Almirante de Frota. Os Chapéus de Palha saem para 
+                explorar e curtir a ilha, afinal é isso que se resume esta aventura em busca do One Piece.</p>
+                <button class="btn-proximo" data-proximo="19">Se divertir</button>
+                <button class="btn-proximo" data-proximo="20">Ir direto ao objetivo</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="img/Sabaody_Park_Infobox.webp" alt="park">
+            <p>Luffy, Nami, Robin, Sanji, Usopp, Chopper(Médico do navio) e Franky(Carpinteiro do navio, 
+                ele também é um ciborgue) saem em busca de diversão enquanto Zoro e Brook(Músico do navio, 
+                também é um espadachim) ficam de guarda no navio. O grupo de Luffy se divide novamente, 
+                Luffy juntamente com Chopper, Usopp e Franky vão no passeio das bolhas onde é possível 
+                voar junto das bolhas e competir como uma corrida, o Grupo de Nami composto por Robin e 
+                também Sanji foram em busca de roupas e comida. Depois de um tempo fazendo compras e 
+                se divertindo aos montes, os Chapéus de Palha presenciam algo inacreditável, uma 
+                explosão no centro do Arquipélago.</p>
+                <button class="btn-proximo" data-proximo="21">Ir averiguar</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="img/compras-sabaody.webp" alt="objetivo">
+            <p>Luffy e os Chapéus de Palha com exceção de Zoro e Brook que ficam no navio de guarda, 
+                vão atrás de um revestidor de navio, Nami, Robin e Sanji vão fazer as compras necessárias 
+                para a estabilidade de todo o navio incluindo de seus companheiros. O grupo de Luffy 
+                encontra Rayleigh que é um revestidor de navios experiênte e vai os ajudar com isso, 
+                porém eles esqueceram o dinheiro do revestidor no navio então eles voltam para buscar 
+                entretanto, no caminho de volta ao navio algo inacreditável acontece, uma explosão no 
+                centro do Arquipélago.</p>
+                <button class="btn-proximo" data-proximo="21">Ir averiguar</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img src="img/kizaru.jpg" alt="kizaru tocando o terror">
+            <p>Chegando perto do ocorrido, é iniciada uma confusão no centro de Sabaody que deixa 
+                os Chapéus de Palha extremamente preocupados, isso devido ao que eles presenciam. 
+                Um Almirante do QG da Marinha acaba de lançar um ataque poderosíssimo de luz em um 
+                lugar cheio de piratas. Não sabemos o motivo mas temos a certeza de que não devemos 
+                em hipótese alguma dar de cara com ele. Rapidamente o grupo de Luffy corre em direção 
+                á loja onde o grupo de Nami está fazendo compras para avisá-los. Nami, Robin e Sanji 
+                já perceberam e saíram em direção ao Thousand Sunny-Go, no meio do caminho eles observam 
+                os piratas correndo em desespero e um deles diz que o Almirante veio devido ao pedido de 
+                um Dragão Celestial que são a família real acima de qualquer outra, descendentes dos 
+                "criadores" deste mundo, ele estava incomodado com o acúmulo de piratas na cidade.</p>
+                <button class="btn-proximo" data-proximo="22">Thousand Sunny-Go</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <p>De volta rapidamente ao navio, os Chapéus de palha se reunem e saem imediatamente 
+                do Arquipélago Sabaody em direção a alguma ilha nas proximidades para se esconder. 
+                Diante de todo aquele desespero eles percebem que se algo assim acontecesse 
+                novamente eles poderiam não conseguir sair ilesos e não iriam poder fazer nada para 
+                se defender pois são fracos demais comparados aos Almirantes e aos piratas do 
+                Novo Mundo. Para chegar ao One piece é necessário passar pelo Novo Mundo, mas nem 
+                todos que passam, sobrevivem e é por isso que Luffy toma uma decisão que deixa todos 
+                inspirados e determinados, os Chapéus de Palha passarão 2 anos treinando arduamente 
+                todos os dias para serem capazes de realizar o sonho de achar o One Piece sem que 
+                acabem morrendo no processo.</p>
+                <button class="btn-proximo" data-proximo="23">Dois anos depois</button>
+        </div>
+        <div class="passo" id="passo-23">
+            <img src="img/time-skip.jpg" alt="time skip">
+            <p>Houve um pulo no tempo de Dois anos e os Chapéus de Palha agora estão extremamente 
+                poderosos e prontos para mais uma aventura, e dessa vez eles estão ainda mais 
+                determinados a seguir em frente e ir atrás do One Piece. Voltando a Sabaody, eles 
+                procuram Rayleigh o revestidor de navios com quem fizeram uma amizade sincera e 
+                verdadeira, e depois de revestir o Thousand Sunny-Go ele está pronto para imergir 
+                no mar e ir em direção a ilha dos Homens-peixe.</p>
+                <button class="btn-proximo" data-proximo="24">Ilha dos Homens-peixe</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <img src="img/Ryugu_Palace_Infobox.webp" alt="reino ryugu">
+            <p>Depois de imergir no mar, eles passam por uma longa viagem até o Reino Ryugu onde 
+                vivem os Homens-peixe e a família real dos Homens-peixe. Eles estavam passando por 
+                mals bocados devido á rebelião de alguns homens-peixe que queriam tomar o reino 
+                e criar uma ditadura onde eles iriam declarar guerra aos humanos devido aos 
+                inúmeros preconceitos e discriminações da parte deles. Os Chapéus de Palha chegam 
+                a ilha porém não são muito bem recebidos e são levados até Hody Jones, um homem-peixe 
+                e também o comandante da rebelião, que decide torturá-los e usá-los como uma declaração 
+                de guerra aos humanos. </p>
+                <button class="btn-proximo" data-proximo="25">Iniciar uma batalha para salvar o Reino</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <img src="img/jinbe.jpg" alt="jibe entra no bando">
+            <p>Talvez tivesse dado certo se eles não tivessem passado dois anos treinando. Uma longa 
+                batalha se inicia e os Chapéus de Palha salvam a família real e derrotam os marginais, 
+                como agradecimento por tudo o que fizeram, Neptune o Rei de Ryugu lhes entrega muitas 
+                joias e moedas de ouro, além de um banquete especial. Porém Luffy e os outros não fizeram 
+                tudo sozinhos, mas com a ajuda de Jinbe um dos Sete Corsários do Mar e acima de qualquer 
+                coisa ele é também um Homem-peixe e cresceu no reino Ryugu, após criar muito apreço pelos 
+                Chapéus de Palha ele renunciou ao posto de Corsário e se juntou aos Chapéus de Palha. Jinbe 
+                os levou até onde se encontrava o poneglifo, após escreverem uma cópia eles foram direto 
+                para o Novo Mundo e com mais um integrante na tripulação.</p>
+                <button class="btn-proximo" data-proximo="26">Ir ao Novo Mundo</button>
+        </div>
+        <div class="passo" id="passo-26">
+            <img src="img/cenario-passo26-novo-mundo.jpeg" alt="chegando ao novo mundo">
+            <p>Chegando no Novo Mundo eles presenciam uma atmosfera completamente diferente, mares 
+                caóticos, temperaturas elevadas e desastres naturais a todo instante, era imprevisível 
+                até mesmo para Nami que era uma das melhores navegadores deste mundo. Todavia isto não 
+                os intimidou nem um pouco, muito pelo contrário pois agora é que a caça ao One Piece 
+                finalmente está chegando ao fim. Com o Lough Pose de Nami que revela a localização 
+                das ilhas através da força magnética, os Chapéus de Palha resolvem ir para:</p>
+                <button class="btn-proximo" data-proximo="27">Whole Cake</button>
+                <button class="btn-proximo" data-proximo="28">Wano</button>
+        </div>
+        <div class="passo" id="passo-27">
+            <img src="img/whole-cake-island.webp" alt="whole cake">
+            <p>Indo em direção á  ilha de Whole Cake, que é onde se localiza o último poneglifo chamado 
+                Road Poneglifo, existem apenas dois desse e se for juntado com as informações que foram 
+                coletadas ao longo da jornada os Chapéus de Palha concerteza descobrirão a localização do 
+                One Piece, entretanto...Conseguir este Road Poneglifo não será nada fácil, visto que 
+                Whole Cake é a ilha comandanda por um dos 4 Imperadores, Charlotte Linlin "Big Mom".</p>
+                <button class="btn-proximo" data-proximo="29">Lutar pelo Road Poneglifo</button>
+                <button class="btn-proximo" data-proximo="30">Se render</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <img src="img/chegando-wano.jpg" alt="wano">
+            <p>Indo em direção á ilha de Wano, os Chapéus de Palha vão aonde é localizado o último 
+                poneglifo chamado Road Poneglifo, existem apenas dois desse e se for juntado com as 
+                informações que foram coletadas ao longo da jornada os Chapéus de Palha concerteza 
+                descobrirão a localização do One Piece, entretanto...Conseguir este Road Poneglifo 
+                não será nada fácil, visto que Wano que já foi uma nação pacífica e antiga terra dos 
+                samurais, é forçadamente comandada por um dos 4 Imperadores, Kaidou das "Cem Feras".</p>
+                <button class="btn-proximo" data-proximo="31">Se unir com os Samurais</button>
+                <button class="btn-proximo" data-proximo="32">Enfrentar Kaidou sozinhos</button>
+        </div>
+        <div class="passo" id="passo-29">
+            <img src="img/festa-da-bigmom.jpg" alt="festa">
+            <p>Luffy e os Chapéus de Palha chegam na ilha de uma imperatriz do mar, determinados 
+                a seguir em frente com a jornada em busca do One Piece, eles não temem nem mesmo 
+                um dos 4 Imperadores. O bando de Big Mom é composto por seus 85 filhos (40 filhas 
+                e 45 filhos), neste momento os Chapéus de Palha se infiltram em uma festa que 
+                estava sendo organizada por Big Mom e sua família. Porém não demorou muito 
+                para que os filhos de Big Mom percebessem que algo estava errado, além de que 
+                alguém os viu aportando na ilha. Quando Big Mom percebeu, Luffy e os outros 
+                saem de onde estavam infiltrados e para distrair Big Mom, é iniciada uma 
+                batalha.</p>
+                <button class="btn-proximo" data-proximo="33">Grupo de Luffy</button>
+                <button class="btn-proximo" data-proximo="34">Grupo de Brook</button>
+        </div>
+        <div class="passo" id="passo-30">
+            <img src="img/capturados.webp" alt="capturados">
+            <p>Mesmo treinando tanto, é impossível chegar ao nível de um Imperador do Mar então o 
+                melhor a se fazer é se render e torcer para que ela nos liberte. Depois de dizer isso, 
+                Luffy e os outros se rendem e por pena Big Mom liberta Luffy e apenas alguns Chapéus 
+                de Palha, pois havia pessoas interessantes e que viriam a ser úteis para que ela 
+                chegasse ao One Piece. Então capturando a Robin, Nami, Sanji e Brook, Big Mom liberta 
+                os outros. #capturados</p>
+        </div>
+        <div class="passo" id="passo-31">
+            <img src="img/aliança-samurai.jpg" alt="samurais">
+            <p>Luffy e os outros ao chegarem em Wano que é uma grande nação, se disfarçam com as roupas 
+                comuns do país e conhecem um pouco mais de como é Wano. Eles descobrem que existem samurais 
+                por todo o país mas que são praticamente escravizados pois eles não quiserem servir a 
+                Kaidou. Muitas pessoas passam fome enquanto outras são privilegiadas ao extremo, diante 
+                dessa injustiça os Chapéus de Palha ficam furiosos e ao ajudar e fazer amizade com alguns 
+                samurais eles decidem se aliar e criar um grande plano para libertar Wano dessa escravidão.</p>
+                <button class="btn-proximo" data-proximo="35">Onigashima</button>
+        </div>
+        <div class="passo" id="passo-32">
+            <img src="img/mortos.webp" alt="mortos">
+            <p>Luffy e os outros chegam á Wano e ao descobrir onde Kaidou está eles vão imediatamente 
+                o enfrentá-lo, porém sem reunir informações o suficiente eles não imaginavam que havia 
+                tantos piratas em um só lugar. Como consequência de terem ido sozinho e sem informações 
+                os Luffy e os Chapéus de Palha são mortos em batalha, menos Robin que é procurada por todo 
+                o mundo por seu conhecimento, após ser torturada ela é obrigada a servir Kaido e o ajudar 
+                a encontrar o One Piece. #mortos</p>
+        </div>
+        <div class="passo" id="passo-33">
+            <img src="img/luffy-vs-bigmom.webp" alt="big mom vs luffy">
+            <p>Luffy e Zoro vão com tudo pra cima de Big Mom e enquanto isso Sanji e Franky cuidam 
+                dos filhos de Linlin. Eles usam suas técnicas mais poderosas e até conseguem derrotar 
+                alguns dos filhos de Big Mom mas ela é praticamente um monstro, tem um tamanho 
+                gigantesco e uma poder incrível. Diante de todo o caos que se transformou a festa, 
+                Katakuri o filho mais poderoso de Linlin se pergunta onde estão os outros Chapéus de 
+                Palha pois até onde ele sabe, os Chapéus de Palha estão em mais de 7 pessoas. Dado o tempo 
+                da distração, Luffy e os outros focam em fugir pois o grupo de Brook fez a sua parte. </p>
+                <button class="btn-proximo" data-proximo="36">Voltar rapidamente ao navio</button>
+        </div>
+        <div class="passo" id="passo-34">
+            <img src="img/brook-poneglifo.jpeg" alt="road poneglifo">
+            <p>Após se separarem para seguir com o plano, Brook, Usopp, Nami, Robin, Chopper e Jinbe 
+                foram atrás do Road Poneglifo que segundo informações conseguidas sorrateiramente 
+                está escondido no cofre da imperatriz, ao chegar em frente ao cofre é visto que tem 
+                uma mulher de cabelo branco chamada Smoothie e um cara gosmento chamado Opera. Diante 
+                dos filhos de Big Mom, Jinbei toma a iniciativa e vai pra cima deles lançando uma rajada 
+                de água em Opera que sem tempo de reagir acaba sendo nocalteado, e quando Smoothie se 
+                prepara para sacar sua espada, Robin cria uma mão gigante com várias outras mãos e esmag
+                a Smoothie. Assim conseguindo entrar no cofre, eles pegam a cópia já reescrita do Poneglifo 
+                e correm de volta ao navio, pois sabem que o grupo de Luffy não vai aguentar muito tempo 
+                com a Big Mom.</p>
+                <button class="btn-proximo" data-proximo="36">Voltar rapidamente ao navio</button>
+        </div>
+        <div class="passo" id="passo-35">
+            <img src="img/kaido.webp" alt="kaido">
+            <p>Após o plano ser feito, Luffy, os Chapéus de Palha e a aliança samurai vão á Onigashima 
+                que é uma pequena ilha aos arredores de Wano que vivem os piratas de Kaido e o mesmo. 
+                Com uma junção de quase 10 mil samurais eles chegam em Onigashima onde já existem 30 mil 
+                piratas maldosos em toda a ilha sem contar com Kaidou e seus executivos. Uma intensa e san
+                grenta batalha se inicia que durou praticamente o dia inteiro e ao final dela e após algumas 
+                mortes, os Chapéus de Palha saem vitoriosos e após pegar as cópias do Road Poneglifo, eles 
+                resolvem dar um imenso banquete comemorando a derrota de Kaidou e a libertação do país de 
+                Wano.</p>
+                <button class="btn-proximo" data-proximo="37">One Piece</button>
+        </div>
+        <div class="passo" id="passo-36">
+            <img src="img/The-Straw-Hats-party-hard-in-One-696x348.jpg" alt="comemorando">
+            <p>Depois de voltarem rapidamente ao navio, os Chapéus de Palha se reúnem e com as cópias 
+                do Road Poneglifo em mãos eles fogem rumo ao mar, foi tão bem sucedido este plano que só 
+                agora é que Big Mom vai se dar conta de que perdeu a única chance que tinha de achar o 
+                One Piece. Comemorando e se divertindo, os Chapéus de Palha percebem que escolheram a 
+                melhor rota, pois talvez se tivessem ido á Wano, teria tido mais trabalho em pegar o 
+                Road Poneglifo e ainda sair vivos de lá.</p>
+                <button class="btn-proximo" data-proximo="37">One Piece</button>
+        </div>
+        <div class="passo" id="passo-37">
+            <img src="img/cenario-passo37-laugh-tale.jpg" alt="chegando em laught tale">
+            <p>Parece surreal e inacreditável, mas depois de tanto sonhar e se esforçar, Luffy e os 
+                famosos e alegres Chapéus de Palha que agora são considerados um dos atuais 5 Impera
+                dores do Mar, conseguiram superar todas as adversidades e estão finalmente com o guia 
+                para achar o One Piece. Após reunir todas os Poneglifos e juntamente com o conhecimento 
+                de Robin, eles chegam à uma ilha chamada Laugh Tale, que é a ilha onde está escondido o 
+                One Piece. Ao chegarem lá eles sem acreditar no que estão vendo, apenas choram e depois 
+                começam a rir enquanto choram, é uma felicidade sem tamanho e uma realização do maior 
+                sonho de todos, é tudo o que este mundo realmente pode oferecer. De fato Luffy se tornou 
+                o Rei dos Piratas e achou o One Piece.</p>
+        </div>
+        
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
